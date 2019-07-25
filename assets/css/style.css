@@ -1,0 +1,10 @@
+body {
+    background-image: url("../images/pacmanbg.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.container {
+    background-color: white;
+    margin: auto;
+}
