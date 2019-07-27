@@ -12,10 +12,26 @@
     <div class="container">
 
         <h1>Video Game Trivia!</h1>
-        <div>Time remaining: <span id="seconds"></span></div>
-        <div id="question"></div>
-        <div id="answers"></div>
+        <div class="wrapper">
+            <div id="start">Start Quiz!</div>
+            <div id="timer">
+                <div id="counter"></div>
+                <div id="btimeGauge"></div>
+                <div id="timeGauge"></div>
+            </div>
+            <div id="question"></div>
+            <div id="choices">
+                    <div class="choice" id="A" data-value="A"></div>
+                    <div class="choice" id="B" data-value="B"></div>
+                    <div class="choice" id="C" data-value="C"></div>
+                    <div class="choice" id="D" data-value="D"></div>
+            </div>
+            <div id="results"></div>
+            <div id="reset" style="display:none">Reset?</div>
+        </div>
 
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script type="text/javascript" src="assets/javascript/app.js"></script>
     </div>
 </body>
 </html>
